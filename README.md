@@ -1,6 +1,6 @@
 # Online Crystal Ball
 
-# Once you have downloaded the project follow the following stape.
+# Once you have downloaded the project follow the following steps.
 
 1. Create Database 
 2. Import crystalball.sql into the created database. crystalball.sql file inside the crystalball folder.
