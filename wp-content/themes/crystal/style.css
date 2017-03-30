@@ -1,0 +1,43 @@
+/*
+Theme Name: Crystal Ball
+Author: Asif Nomani
+Description: Theme by Asif Nomani.
+Version: 1.0
+*/
+
+
+ body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #555555;
+	  background-color: #ffffff; /* White */
+  }
+ 
+.container {
+   padding-top: 70px;
+}
+  
+p {font-size: 16px;}
+   
+.crystal_header{
+	color:#88aa00;
+	font-size: 288%;
+}
+   
+.btn-round-lg{
+	border-radius: 41px;
+    border: 2px solid #88aa00;
+    width: 272px;
+}
+
+.btn-round{
+	border-radius: 17px;
+}
+
+.div2{
+	padding-top: 30px;
+}
+
+.answer{
+	color:#88aa00;
+}
