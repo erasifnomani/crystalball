@@ -43,7 +43,7 @@ function my_fortunes_update() {
                     <tr><th><textarea name="fortunes" style="width:100%" required><?php echo $fortunes; ?></textarea></th></tr>
                 </table>
                 <input type='submit' name="update" value='Save' class='button' style="float: right;margin-top: 5px;"> &nbsp;&nbsp;
-                <input type='submit' name="delete" value='Delete' class='button' onclick="return confirm('Are You sure')" style="margin-top: 5px;">
+                <input type='submit' name="delete" value='Delete' class='button' onclick="return confirm('Are you sure you want to delete?')" style="margin-top: 5px;">
             </form>
         <?php } ?>
 
