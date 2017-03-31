@@ -30,7 +30,7 @@ function my_fortunes_list() {
                     <td>
 						<a href="<?php echo admin_url('admin.php?page=my_fortunes_update&id=' . $row->id); ?>">Update</a>
 						&nbsp;&nbsp; | &nbsp;&nbsp;
-						<a href="<?php echo admin_url('admin.php?page=my_fortunes_list&id=' . $row->id); ?>" onclick="return confirm('Are You sure')">Delete</a>
+						<a href="<?php echo admin_url('admin.php?page=my_fortunes_list&id=' . $row->id); ?>" onclick="return confirm('Are you sure you want to delete?')">Delete</a>
 					</td>
                 </tr>
             <?php } ?>
